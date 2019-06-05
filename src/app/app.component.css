@@ -27,5 +27,13 @@ li {
 
 a {
     color: white;
-    text-decoration: none
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase
+}
+
+ul {
+    list-style: none;  
+    text-align:center;
+    padding-right: 50px;
 }

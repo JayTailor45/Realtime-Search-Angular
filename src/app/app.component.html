@@ -8,9 +8,9 @@
     <input (keyup)="searchTerm$.next($event.target.value)" placeholder="redux" />
   </div>
   <div class="result">
-    <ul *ngIf="result" style="list-style: none;  text-align:center;">
+    <ul *ngIf="result">
       <li *ngFor="let res of result | slice: 0:9">
-        <a href="{{ res.latest }}" target="_blank" style="text-align:center">
+        <a href="{{ res.latest }}" target="_blank">
           {{ res.name }}
         </a>
       </li>
