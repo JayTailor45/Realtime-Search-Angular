@@ -1,0 +1,31 @@
+.container {
+    padding: 0px 80px 16px 80px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #555;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 5px;
+    border: 2px solid #aeaeae;
+}
+
+li {
+    padding: 20px 25px 25px 25px;
+    margin: 35px 0px 10px 0px;
+    align-items: center;
+    justify-items: center;
+    align-self: center;
+    border-radius: 3px;
+    border: 2px solid #aeaeae;
+    background-color: #555;
+    box-shadow: 2px 2px 10px grey;
+    text-decoration: none
+
+}
+
+a {
+    color: white;
+    text-decoration: none
+}
